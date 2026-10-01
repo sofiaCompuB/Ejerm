@@ -1,0 +1,82 @@
+/* Sofia patzan  */
+body {
+    font-family: 'Segoe UI', sans-serif; 
+    background-color: #f0f2f5;   
+    display: flex;               
+    justify-content: center;      
+    align-items: center;          /* Centra verticalmente snpt */
+    height: 100vh;                /* Ocupa toda la altura snpt*/
+    margin: 0;                    /* Sin margen snpt*/
+}
+
+
+.card {
+    width: 400px;                 /* Ancho de la tarjeta snpt */
+    height: 230px;                /* Alto de la tarjeta snpt*/
+    background: white;            /* Fondo blanco snpt */
+    border-radius: 15px;          /* Bordes redondeados snpt*/
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* Sombra snpt*/
+    display: flex;                /* Flexbox para las dos partes snpt */
+    overflow: hidden;             /* Oculta el desbordamiento snpt*/
+}
+
+
+.left {
+    width: 35%;                   
+    background: #1d354d;         
+    display: flex;               
+    flex-direction: column;       
+    align-items: center;         
+    justify-content: center;      /* Centra verticalmente snpt */
+    padding: 20px;                /* Espaciado interno snpt */
+}
+
+
+.photo {
+    width: 80px;                  /* Ancho del circulo */
+    height: 80px;                 /* Alto del circulo */
+    border-radius: 50%;           /* Forma circular */
+    border: 3px solid white;      /* Borde blanco */
+    
+    /* Propiedades para insertar y ajustar la imagen */
+    background-image: url("Cute evil fox.jpg"); /* Carga tu imagen */
+    background-size: cover;       /* Escala la foto para cubrir todo el espacio */
+    background-position: center;  /* Centra la imagen dentro del circulo */
+    background-repeat: no-repeat; /* Evita que la foto se duplique */
+}
+
+/* Parte derecha */
+.right {
+    width: 65%;                   /* Ancho de la parte derecha snpt*/
+    padding: 30px;                /* Espaciado interno snpt */
+    display: flex;                /* Flexbox snpt*/
+    flex-direction: column;       /* Direccion en columna snpt*/
+    justify-content: center;      /* Centra contenido snpt*/
+}
+
+
+h2 { 
+    margin: 0; 
+    color: #333; 
+    font-size: 22px; 
+}
+
+
+p.title {
+    margin: 5px 0 20px 0;
+    color: #31606e;
+    font-size: 14px;
+    text-transform: uppercase;   
+    letter-spacing: 1px;          
+}
+
+
+.info {
+    font-size: 13px;             
+    color: #555;                  
+    line-height: 1.6;             
+}
+
+.info div { 
+    margin-bottom: 5px;          
+}

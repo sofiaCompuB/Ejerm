@@ -1,0 +1,64 @@
+/* Sofia Nohemy Patzan */
+
+body {
+    display: flex;             
+    justify-content: center;   
+    align-items: center;      
+    height: 100vh;             /* Ocupa toda la ventana snpt */
+    background: #121212;       /* Fondo oscuro snpt */
+    margin: 0;
+}
+
+
+.subscribe-card {
+    background: #1e1e1e;       
+    padding: 30px;             /* Espaciado interno snpt*/
+    border-radius: 15px;       /* Bordes redondeados snpt*/
+    text-align: center;        /* Texto centrado snpt */
+    width: 300px;              /* Ancho del card snpt */
+    border: 1px solid #333;    /* Borde sutil snpt*/
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* Sombra snpt*/
+}
+
+/* Estilo del titulo snpt */
+h2 {
+    color: #fff;               /* Color blanco snpt*/
+    font-size: 24px;           /* Tamano de letra snpt*/
+    margin-bottom: 10px;       /* Espacio inferior snpt*/
+}
+
+/* Estilo del texto secundario snpt */
+p {
+    color: #aaa;               /* Color gris snpt*/
+    font-size: 14px;           /* Tamano de letra snpt */
+    margin-bottom: 20px;       /* Espacio inferior snpt*/
+}
+
+
+input {
+    width: 100%;               /* Ancho completo snpt */
+    padding: 12px;             /* Espaciado interno snpt*/
+    margin-bottom: 15px;       /* Espacio inferior snpt*/
+    background: #2a2a2a;       /* Fondo del input snpt*/
+    border: none;              /* Sin borde snpt*/
+    border-radius: 5px;        /* Bordes redondeados snpt */
+    color: white;              /* Color del texto snpt */
+    box-sizing: border-box;    /* Incluye padding y borde snpt */
+}
+
+
+button {
+    width: 100%;               
+    padding: 12px;            
+    background: #22c55e;      
+    color: white;              /* Color del texto spnt*/
+    border: none;              /* Sin borde snpt*/
+    border-radius: 5px;        /* Bordes redondeados snpt*/
+    font-weight: bold;         /* Texto en negrita snpt*/
+    cursor: pointer;           /* Cursor de mano snpt */
+}
+
+/* Efecto al pasar el mouse snpt */
+button:hover {
+    background: #16a34a;       /* Color al pasar el mouse snpt*/
+}

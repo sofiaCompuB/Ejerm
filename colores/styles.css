@@ -1,0 +1,32 @@
+/* Sofia patzan */
+
+body {
+    background: #333;           
+    padding: 20px;              
+    display: flex;               /* snpt Usa Flexbox */
+    justify-content: center;     /* snpt Centra horizontalmente */
+    align-items: center;         /* snpt Centra verticalmente */
+    height: 100vh;               /* snpt Altura de toda la ventana */
+    margin: 0;                   /* snpt Sin margen */
+}
+
+
+.box {
+    width: 100px;                
+    height: 50px;               
+    margin: 10px;                /* snpt Margen entre cuadros */
+    color: white;                /* snpt Color del texto */
+    display: flex;               /* snpt Usa Flexbox */
+    align-items: center;         /* snpt Centra verticalmente el texto */
+    justify-content: center;     /* snpt Centra horizontalmente el texto */
+}
+
+
+.solid {
+    background-color: rgb(255, 0, 0);
+}
+
+/* snpt Cuadro rojo transparente usando rgba() */
+.trans {
+    background-color: rgba(255, 0, 0, 0.5); /* snpt Rojo con 50% de opacidad */
+}

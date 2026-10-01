@@ -1,0 +1,29 @@
+/* sofia patzan */
+
+body {
+    display: flex;              /* Usa Flexbox para centrar snpt*/
+    justify-content: center;    /* Centrado horizontal snpt */
+    align-items: center;        /* Centrado vertical snpt */
+    height: 100vh;              /* 100% del alto de la ventana snpt  */
+    background: #ffffff;        /* Color de fondo blanco snpt */
+    margin: 0;                  /* Elimina margenes por defecto snpt*/
+    font-family: 'Georgia', 'Times New Roman', serif; /* Tipo de fuente snpt*/
+}
+
+
+.rnb-text {
+    font-size: 90px;            
+    font-weight: bold;          /* Texto en negrita snpt */
+    text-transform: uppercase;  /* Convierte a mayusculas snpt */
+    letter-spacing: -2px;       /* Espacio entre letras snpt */
+    margin: 0;                  /* Sin margen snpt */
+
+    
+    background: linear-gradient(135deg, #240046 0%, #7b2cbf 50%, #ffd700 100%); 
+    -webkit-background-clip: text; 
+    background-clip: text;      /* Propiedad estandar snpt */
+    color: transparent;         /* Hace transparente el color del texto snpt*/
+
+    /* Sombra para dar profundidad */
+    filter: drop-shadow(2px 2px 0px rgba(0,0,0,0.11));
+}

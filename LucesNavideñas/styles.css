@@ -1,0 +1,68 @@
+/* sofia patzan */
+
+body {
+    margin: 0;                  
+    height: 100vh;              /* Alto de la ventana snpt */
+    background: #1a1a1a;        /* Fondo oscuro snpt*/
+    display: flex;              /* Usa Flexbox snpt*/
+    justify-content: center;    /* Centra horizontalmente snpt */
+    align-items: flex-start;    /* Alinea arriba snpt */
+    padding-top: 50px;          /* Espacio superior snpt */
+}
+
+/* Cable de la luz */
+.wire {
+    position: absolute;         
+    top: 40px;                  
+    width: 80%;                 
+    height: 2px;                
+    background: #333;           /* Color del cable snpt */
+}
+
+
+.string {
+    display: flex;              
+    gap: 30px;                  
+    z-index: 2;              
+}
+
+/* Estilo base de cada bombilla snpt */
+.bulb {
+    width: 20px;                /* Ancho de la bombilla snpt */
+    height: 30px;               /* Alto de la bombilla snpt */
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    /* Forma redondeada */
+    position: relative;         /* Posicion relativa snpt */
+}
+
+
+.bulb::before {
+    content: '';                /* Crea un pequeño rectangulo snpt */
+    position: absolute;         /* Posicion absoluta snpt*/
+    top: -5px;                  /* Se coloca encima snpt*/
+    left: 5px;                  /* Alineacion horizontal snpt*/
+    width: 10px;                /* Ancho del conector snpt*/
+    height: 8px;                /* Alto del conector snpt*/
+    background: #444;           /* Color del conector snpt*/
+}
+
+
+.red {
+    background: #ff3333;        
+    box-shadow: 0 0 15px #ff3333; /* Efecto de luz snpt*/
+}
+
+.green {
+    background: #33ff33;        
+    box-shadow: 0 0 15px #33ff33; 
+}
+
+.blue {
+    background: #3333ff;        /* Color azul snpt */
+    box-shadow: 0 0 15px #3333ff; /* Efecto de luz snpt */
+}
+
+.yellow {
+    background: #ffff33;       
+    box-shadow: 0 0 15px #ffff33; /* Efecto de luz snpt*/
+}

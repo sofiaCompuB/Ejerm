@@ -1,0 +1,50 @@
+/* sofia patzan */
+
+body {
+    margin: 0;                    
+    font-family: sans-serif;      /* Tipo de fuente snpt*/
+}
+
+
+nav {
+    background: #f7c956;         
+    display: flex;                
+    justify-content: space-between; 
+    align-items: center;          /* Centra verticalmente snpt*/
+    padding: 15px 20px;           /* Espaciado interno snpt*/
+}
+
+
+.logo {
+    color: #333;                  /* Color del texto snpt*/
+    font-weight: bold;            /* Texto en negrita snpt*/
+    text-decoration: none;        /* Sin subrayado snpt */
+}
+
+.links {
+    list-style: none;            
+    margin: 0;                    
+    padding: 0;                   
+    display: flex;                /* Alineacion horizontal snpt */
+    gap: 15px;                    /* Espacio entre enlaces snpt*/
+}
+
+/* Estilo de los enlaces */
+.links a {
+    color: #161111;                  /* Color del texto snpt*/
+    text-decoration: none;        /* Sin subrayado snpt*/
+    font-weight: bold;            /* Texto en negrita snpt*/
+}
+
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;   /* Cambia a vertical snpt*/
+        gap: 10px;                /* Espacio entre elementos snpt */
+    }
+
+    .links {
+        flex-direction: column;   
+        text-align: center;       
+    }
+}

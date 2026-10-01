@@ -1,0 +1,27 @@
+/* Sofia patzan */
+
+body {
+    display: flex;               
+    justify-content: center;     
+    align-items: center;         /* snpt Centra verticalmente */
+    height: 100vh;               /* snpt Alto de toda la ventana */
+    background: #111;            /* snpt Color de fondo oscuro */
+    margin: 0;                   /* snpt Sin margen */
+    font-family: 'Arial Black', sans-serif; /* snpt Tipo de fuente */
+}
+
+
+.pop-text {
+    font-size: 80px;             
+    font-weight: 900;           
+    text-transform: uppercase;   /* snpt Letras mayusculas */
+    background: linear-gradient(45deg, #ff00cc, #3333ff);
+    /* snpt Degradado de colores  */
+    -webkit-background-clip: text; /* snpt Aplica el degradado al texto */
+    background-clip: text;       /* snpt Propiedad estandar */
+    color: transparent;          /* snpt Hace el texto transparente */
+    filter: drop-shadow(0 0 15px rgba(255, 0, 204, 0.5));
+    /* snpt Sombra brillante */
+    letter-spacing: -2px;        /* snpt Espacio entre letras */
+    margin: 0;                   /* snpt Sin margen */
+}

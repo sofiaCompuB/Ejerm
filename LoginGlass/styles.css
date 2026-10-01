@@ -1,0 +1,79 @@
+/* Sofia patzan */
+/* Estilos generales del cuerpo de la página */
+body {
+    margin: 0;                /* Elimina márgenes por defecto */
+    height: 100vh;            /* Altura de toda la ventana */
+    display: flex;            /* Usa Flexbox */
+    justify-content: center;   /* Centra horizontalmente */
+    align-items: center;       /* Centra verticalmente */
+    font-family: 'Segoe UI', sans-serif; /* Tipo de fuente */
+    background: linear-gradient(45deg, #FC466B, #3F5EFB); /* Fondo degradado */
+}
+
+/* Estilo del contenedor de vidrio (glass card) */
+.glass-card {
+    width: 320px;             /* Ancho del contenedor */
+    padding: 40px;            /* Espacio interno */
+    border-radius: 20px;      /* Bordes redondeados */
+    background: rgba(255, 255, 255, 0.25); /* Fondo semitransparente */
+    backdrop-filter: blur(10px); /* Desenfoca lo que está detrás */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilidad con Safari */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Borde semitransparente */
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* Sombra suave */
+    text-align: center;       /* Centra el contenido */
+    color: white;             /* Color del texto */
+}
+
+/* Estilo del título */
+h2 {
+    margin-top: 0;            /* Sin margen superior */
+    margin-bottom: 30px;      /* Espacio inferior */
+    font-weight: 600;         /* Grosor del texto */
+    letter-spacing: 2px;      /* Espacio entre letras */
+    text-transform: uppercase; /* Convierte a mayúsculas */
+}
+
+/* Estilo de los campos de entrada */
+input {
+    width: 100%;              /* Ancho completo */
+    padding: 15px;            /* Espacio interno */
+    margin-bottom: 20px;      /* Espacio inferior entre campos */
+    border: none;             /* Sin borde */
+    border-radius: 30px;      /* Bordes redondeados */
+    background: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
+    color: white;             /* Color del texto */
+    outline: none;            /* Quita el borde de enfoque */
+    box-sizing: border-box;   /* Incluye padding en el ancho */
+    transition: 0.3s;         /* Transición suave */
+}
+
+/* Color del placeholder */
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Color del texto del placeholder */
+}
+
+/* Efecto cuando el input está enfocado */
+input:focus {
+    background: rgba(255, 255, 255, 0.4); /* Fondo más visible */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Sombra al enfocar */
+}
+
+/* Estilo del botón */
+button {
+    width: 100%;              /* Ancho completo */
+    padding: 15px;            /* Espacio interno */
+    border: none;             /* Sin borde */
+    border-radius: 30px;      /* Bordes redondeados */
+    background: white;        /* Fondo blanco */
+    color: #3F5EFB;           /* Color del texto */
+    font-weight: bold;        /* Texto en negrita */
+    font-size: 16px;          /* Tamaño de la fuente */
+    cursor: pointer;          /* Cursor de mano */
+    transition: transform 0.2s; /* Transición suave */
+}
+
+/* Efecto al pasar el mouse sobre el botón */
+button:hover {
+    transform: scale(1.05);   /* Aumenta ligeramente el tamaño */
+    background: #f0f0f0;      /* Cambia el color de fondo */
+}

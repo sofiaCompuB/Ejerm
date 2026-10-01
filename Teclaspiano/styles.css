@@ -1,0 +1,38 @@
+/* sofia patzan */
+
+body {
+    display: flex;               
+    justify-content: center;     
+    align-items: center;         /* snpt Centrado vertical */
+    height: 100vh;               /* snpt 100% de alto de la ventana */
+    margin: 0;                   /* snpt Sin margen */
+    background: #f0fff0;         /* snpt Color de fondo verde claro */
+}
+
+
+.piano {
+    position: relative;          
+    display: flex;               
+}
+
+/* snpt Estilo de las teclas blancas */
+.white {
+    width: 60px;                 /* snpt Ancho de cada tecla blanca */
+    height: 150px;               /* snpt Alto de cada tecla blanca */
+    border: 1px solid #ccc;      /* snpt Borde gris */
+    background: white;           /* snpt Fondo blanco */
+}
+
+
+.black {
+    width: 40px;                 /* snpt Ancho de la tecla negra */
+    height: 90px;                /* snpt Alto de la tecla negra */
+    background: black;           /* snpt Color negro */
+    position: absolute;          /* snpt Posicion absoluta para superponer */
+    z-index: 2;                  /* snpt Se muestra encima de las blancas */
+}
+
+
+.b1 { left: 40px; }              
+/* snpt Posicion de la tecla negra derecha */
+.b2 { left: 100px; }             /* snpt Se ubica sobre la segunda y tercera */

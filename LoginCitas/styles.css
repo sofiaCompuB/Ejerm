@@ -1,0 +1,66 @@
+/* sofia patzan*/
+
+body {
+    margin: 0;                  
+    height: 100vh;               
+    display: flex;               /* snpt Usa Flexbox para centrar */
+    justify-content: center;     /* snpt Centra horizontalmente */
+    align-items: center;         /* snpt Centra verticalmente */
+    font-family: sans-serif;     /* snpt Tipo de fuente */
+    background: #ffe6ea;         /* snpt Color de fondo rosa claro */
+}
+
+
+.card {
+    width: 300px;              
+    padding: 40px;               
+    border-radius: 20px;         /* snpt Bordes redondeados */
+    background: white;           /* snpt Color de fondo blanco */
+    text-align: center;          /* snpt Centra el contenido */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* snpt Sombra */
+}
+
+
+h2 {
+    color: #ff4b6e;            
+    margin-bottom: 20px;         
+    display: inline-block;       /* snpt Se comporta como bloque en linea */
+    position: relative;          /* snpt Permite posicionar el pseudo-elemento */
+    padding-left: 25px;          /* snpt Espacio para el icono */
+}
+
+/* snpt Pseudo-elemento que crea el icono */
+h2::before {
+    content: "";                 /* snpt Elemento vacio */
+    position: absolute;          /* snpt Posicion absoluta */
+    left: 0;                     /* snpt Se coloca a la izquierda */
+    top: 2px;                    /* snpt Ajuste vertical del icono */
+    width: 14px;                 /* snpt Ancho del rombo */
+    height: 14px;                /* snpt Alto del rombo */
+    background: #ff4b6e;         /* snpt Color del rombo */
+    transform: rotate(-45deg);   /* snpt Rota para formar un rombo */
+    box-shadow: -1px -1px 0 #ff4b6e; /* snpt Borde suave */
+    border-radius: 2px;          /* snpt Ligero redondeo */
+}
+
+
+input {
+    width: 100%;                 /* snpt Ancho completo */
+    padding: 12px;               /* snpt Espacio interno */
+    margin-bottom: 15px;         /* snpt Espacio inferior entre campos */
+    border: 1px solid #ddd;      /* snpt Borde gris claro */
+    border-radius: 8px;          /* snpt Bordes redondeados */
+    box-sizing: border-box;      /* snpt Incluye padding en el ancho total */
+}
+
+
+button {
+    width: 100%;               
+    padding: 12px;               /* snpt Espacio interno */
+    border: none;                /* snpt Sin borde */
+    border-radius: 8px;          /* snpt Bordes redondeados */
+    background: #ff4b6e;         /* snpt Color del boton */
+    color: white;                /* snpt Color del texto */
+    font-weight: bold;           /* snpt Texto en negrita */
+    cursor: pointer;             /* snpt Cursor de mano */
+}

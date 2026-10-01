@@ -1,0 +1,80 @@
+/* Sofia Patzan  */
+
+body {
+    margin: 0;                   
+    height: 100vh;                /* Altura completa de la ventana snpt*/
+    display: flex;                /* Usa Flexbox para centrar snpt*/
+    justify-content: center;      /* Centra horizontalmente snpt*/
+    align-items: center;          /* Centra verticalmente snpt*/
+    background: #2c3e50;          /* Color de fondo de la página snpt */
+    font-family: 'Courier New', monospace; /* Tipo de fuente snpt*/
+}
+
+
+.ticket {
+    width: 300px;                 
+    background: #fff;            
+    border-radius: 10px;         
+    overflow: hidden;             
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3); 
+}
+
+
+.top {
+    background: #e74c3c;        
+    color: white;                 
+    padding: 20px;                /* Espaciado interno snpt*/
+    text-align: center;           /* Centra el texto snpt*/
+    position: relative;           /* Para los pseudo-elementos snpt*/
+}
+
+
+.top::before, .top::after {
+    content: '';                  
+    position: absolute;          
+    bottom: -10px;               
+    width: 20px;                  
+    height: 20px;                 
+    background: #2c3e50;         
+    border-radius: 50%;          
+}
+
+.top::before { left: -10px; }    
+.top::after { right: -10px; }   /* Círculo derecho snpt */
+
+
+h2 {
+    margin: 0;                   
+    font-size: 24px;              
+    text-transform: uppercase;   
+}
+
+
+.movie-title {
+    font-size: 14px;              /* Tamaño del texto snpt*/
+    opacity: 0.9;                 /* Ligeramente transparente snpt */
+    margin-top: 5px;              /* Espacio superior snpt*/
+}
+
+/* Parte inferior del boleto snpt*/
+.bottom {
+    padding: 20px;                /* Espaciado interno snpt */
+    display: flex;                /* Usa Flexbox snpt*/
+    justify-content: space-between; /* Separa los elementos snpt*/
+    border-top: 2px dashed #ccc;  /* Línea punteada snpt
+     */
+}
+
+
+.info div {
+    font-size: 12px;             
+    color: #7f8c8d;               
+    margin-bottom: 5px;           
+}
+
+
+.info span {
+    font-size: 16px;             
+    font-weight: bold;          
+    color: #2c3e50;               
+}

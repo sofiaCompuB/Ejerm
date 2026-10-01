@@ -1,0 +1,61 @@
+/* sofia patzan */
+body {
+    font-family: monospace;          
+    display: flex;                   
+    justify-content: center;        
+    align-items: center;             
+    height: 100vh;                   
+    background: #050505;             /* Fondo oscuro snpt*/
+    margin: 0;                       /* Sin margenes */
+}
+
+
+.card {
+    background: #101010;            
+    padding: 40px;                   
+    border: 2px solid #00f3ff;       
+    box-shadow: 0 0 15px #00f3ff;   
+    width: 280px;                    /* Ancho de la tarjeta snpt */
+    text-align: center;              /* Alinea el texto snpt */
+    color: #fff;                     /* Color del texto snpt*/
+}
+
+h2 {
+    text-shadow: 0 0 10px #00f3ff;  
+    margin-bottom: 30px;             
+}
+
+
+input {
+    width: 100%;                     
+    padding: 10px;                  
+    margin-bottom: 20px;             
+    background: transparent;         
+    border: none;                    /* Sin bordes snpt*/
+    border-bottom: 2px solid #333;   /* Linea inferior snpt*/
+    color: #fff;                     /* Color del texto snpt*/
+    box-sizing: border-box;          /* Incluye padding y borde snpt*/
+}
+
+input:focus {
+    outline: none;                   
+    border-color: #ff00de;           /* Cambia color al enfocar snpt*/
+    box-shadow: 0 5px 10px -5px #ff00de; /* Sombra al enfocar snpt*/
+}
+
+
+button {
+    width: 100%;                     
+    padding: 10px;                  
+    background: transparent;         
+    color: #00f3ff;                  /* Color del texto snpt*/
+    border: 2px solid #00f3ff;       /* Borde de color snpt*/
+    cursor: pointer;                 /* Cursor de mano snpt */
+    font-weight: bold;               /* Texto en negrita snpt*/
+}
+
+button:hover {
+    background: #00f3ff;            
+    color: #000;                     
+    box-shadow: 0 0 20px #00f3ff;    
+}

@@ -1,0 +1,43 @@
+/* Sofia patzan*/
+
+body {
+    display: flex;              
+    justify-content: center;     
+    align-items: center;         /* snpt Centra verticalmente */
+    height: 100vh;               /* snpt Alto de toda la ventana */
+    background: #f4f4f4;         /* snpt Color de fondo gris claro */
+    font-family: sans-serif;     /* snpt Tipo de fuente */
+    margin: 0;                   /* snpt Sin margen */
+}
+
+
+.card {
+    width: 250px;               
+    background: white;           
+    padding: 20px;               /* snpt Espacio interno */
+    border-radius: 10px;         /* snpt Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* snpt Sombra */
+}
+
+/* snpt Titulo de la tarjeta */
+h3 {
+    margin: 0 0 15px;            /* snpt Margen inferior */
+    text-align: center;          /* snpt Texto centrado */
+    color: #333;                 /* snpt Color del texto */
+}
+
+
+li {
+    display: flex;               /* snpt Usa Flexbox en cada fila */
+    justify-content: space-between; /* snpt Separa los elementos */
+    padding: 8px 0;              /* snpt Espacio interno */
+    border-bottom: 1px solid #eee; /* snpt Linea divisoria */
+    list-style: none;            /* snpt Quita los puntos de la lista */
+    color: #555;                 /* snpt Color del texto */
+}
+
+
+span {
+    font-weight: bold;           
+    color: #2ecc71;              /* snpt Color verde */
+}

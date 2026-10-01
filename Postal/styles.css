@@ -1,0 +1,58 @@
+/* sofia patzan*/
+
+body {
+    display: flex;              
+    justify-content: center;    
+    align-items: center;        /* Centrado vertical snpt */
+    height: 100vh;              /* 100% del alto de la ventana snpt*/
+    background: #e0e0e0;        /* Color de fondo snpt*/
+    margin: 0;                  /* Elimina margenes snpt*/
+}
+
+
+.postcard {
+    width: 500px;               
+    height: 300px;              
+    background: #fdfbf7;        /* Color de fondo snpt */
+    border: 2px dashed #8b4513; /* Borde punteado snpt */
+    padding: 20px;              /* Espacio interno snpt*/
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2); /* Sombra snpt*/
+    display: flex;              /* Distribuye los lados snpt */
+}
+
+
+.left-side {
+    width: 60%;                 /* 60% del ancho snpt*/
+    padding-right: 20px;        /* Espacio a la derecha snpt*/
+}
+
+
+.right-side {
+    width: 40%;                 
+    border-left: 2px solid #ddd; /* Linea vertical snpt*/
+    padding-left: 20px;         /* Espacio a la izquierda snpt */
+    display: flex;              /* Usa Flexbox snpt*/
+    flex-direction: column;     /* Elementos en columna snpt*/
+    justify-content: space-between; /* Espacio entre elementos snpt */
+}
+
+.stamp-box {
+    width: 80px;                
+    height: 90px;              
+    border: 2px dotted #ccc;    /* Borde punteado snpt */
+    align-self: flex-end;       /* Alineado a la derecha snpt */
+    background: #fff;           /* Fondo blanco snpt*/
+}
+
+
+.address-lines {
+    margin-top: 20px;          
+}
+
+
+.line {
+    width: 100%;                /* Ancho completo snpt*/
+    height: 1px;                /* Grosor de la linea snpt */
+    background: #ccc;           /* Color de la linea snpt */
+    margin-bottom: 20px;        /* Espacio entre lineas snpt */
+}

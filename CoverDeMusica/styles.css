@@ -1,0 +1,57 @@
+/* sofia nohemy patzan */
+body {
+    display: flex;            
+    justify-content: center;   /* Centra horizontalmente snpt*/
+    align-items: center;       /* Centra verticalmente snpt*/
+    height: 100vh;             /* Alto de toda la ventana snpt*/
+    background: #f0f0f0;       /* Color de fondo snpt*/
+    font-family: sans-serif;   /* Tipo de fuente snpt */
+}
+
+
+.cover {
+    width: 300px;              
+    height: 300px;            
+    background: linear-gradient(
+        45deg,                
+        #ff9a9e 0%,            
+        #fad0c4 99%,           /* Color intermedio snpt*/
+        #fad0c4 100%           /* Color final snpt */
+    );
+    border-radius: 20px;       
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); 
+    position: relative;        /* Posicion relativa snpt */
+    overflow: hidden;          /* Oculta el desbordamiento snpt*/
+    display: flex;             /* Usa Flexbox snpt*/
+    flex-direction: column;    /* Elementos en columna snpt*/
+    justify-content: flex-end; /* Alinea el contenido abajo snpt */
+    padding: 20px;             /* Espaciado interno snpt*/
+    color: white;              /* Color del texto snpt*/
+}
+
+
+.circle {
+    position: absolute;      
+    top: -50px;                
+    right: -50px;             
+    width: 200px;              /* Ancho del circulo snpt */
+    height: 200px;             /* Alto del circulo snpt*/
+    background: rgba(255, 255, 255, 0.2); 
+    /* Color blanco con transparencia snpt*/
+    border-radius: 50%;        /* Forma de circulo snpt*/
+}
+
+
+h2 {
+    margin: 0;                
+    font-size: 24px;          
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+   
+}
+
+
+p {
+    margin: 5px 0 0;          
+    font-size: 14px;           
+    opacity: 0.9;              
+}

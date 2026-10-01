@@ -1,0 +1,54 @@
+/* sofia patzan */
+body {
+    display: flex;              /* Usa Flexbox para centrar snpt */
+    justify-content: center;    /* Centrado horizontal snpt*/
+    align-items: center;        /* Centrado vertical snpt*/
+    height: 100vh;              
+    background: #f0f2f5;        /* Color de fondo snpt */
+    font-family: sans-serif;    /* Tipo de fuente snpt*/
+    margin: 0;                  /* Elimina margenes por defecto snpt*/
+}
+
+/* Estilos de la tarjeta snpt*/
+.card {
+    width: 240px;               /* Ancho de la tarjeta snpt */
+    background: white;          /* Fondo blanco snpt*/
+    padding: 30px 20px;         /* Espacio interno snpt*/
+    border-radius: 15px;        
+    text-align: center;         
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Sombra */
+}
+
+/* Estilo del titulo snpt*/
+h3 {
+    margin: 0;                 
+    color: #333;               
+    font-size: 22px;            
+}
+
+/* Estilo de la ciudad snpt*/
+.info {
+    color: #888;                
+    font-size: 14px;            /* Tamaño de fuente snpt */
+    margin-top: 5px;            /* Espacio superior snpt*/
+}
+
+/* Estilo de la descripcion snpt*/
+.bio {
+    color: #555;                
+    font-size: 15px;            
+    margin: 20px 0;             /* Espacio arriba y abajo snpt*/
+    line-height: 1.4;           /* Espaciado entre lineas snpt */
+}
+
+/* Estilo del boton */
+button {
+    width: 100%;                /* Ancho completo de la tarjeta snpt */
+    padding: 12px;              
+    background: #ff486e;        /* Corregido a 6 caracteres snpt */
+    color: white;               /* Color del texto snpt */
+    border: none;               /* Sin borde snpt */
+    border-radius: 25px;        /* Bordes redondeados snpt */
+    cursor: pointer;            /* Cambia el cursor al pasar el mouse snpt */
+    font-weight: bold;          /* Texto en negrita snpt */
+}

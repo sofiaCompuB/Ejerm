@@ -1,0 +1,77 @@
+/* sofia nohemy patzan*/
+
+body {
+    font-family: 'Segoe UI', sans-serif; 
+    background-color: #e6dff5; 
+    display: flex;             
+    justify-content: center;  
+    align-items: center;       /* Centra verticalmente snpt */
+    height: 100vh;             /* Ocupa toda la altura snpt*/
+    margin: 0;                 /* Elimina márgenes snpt*/
+}
+
+
+.card {
+    width: 300px;              
+    padding: 40px;             /* Espaciado interno snpt*/
+    border-radius: 30px;       /* Esquinas redondeadas snpt*/
+    background: #e6dff5;       /* Color de fondo snpt*/
+    box-shadow: 9px 9px 16px rgba(179, 157, 219, 0.6),
+                -9px -9px 16px rgba(255, 255, 255, 0.8); /* Sombras neumórficas snpt */
+    text-align: center;        /* Centra el contenido snpt */
+}
+
+
+h2 {
+    color: #4a148c;           
+    margin-bottom: 30px;       
+    font-weight: 600;          
+    letter-spacing: 1px;       
+}
+
+
+input {
+    width: 100%;               
+    padding: 15px;            
+    margin-bottom: 20px;       
+    border: none;              
+    border-radius: 10px;       
+    background: #e6dff5;       
+    color: #4a148c;            
+    box-sizing: border-box;    
+    box-shadow: inset 6px 6px 12px #c5b3e6, 
+                inset -6px -6px 12px #ffffff; /* Sombra interna oscura y clara snpt*/
+    outline: none;             /* Sin contorno al enfocar snpt*/
+}
+
+/* Color del texto de placeholder snpt */
+input::placeholder {           /* Corregido typo snpt*/
+    color: #9575cd;            /* Color del texto de sugerencia snpt*/
+}
+
+
+button {
+    width: 100%;               
+    padding: 15px;            
+    margin-top: 10px;          
+    border: none;              
+    border-radius: 50px;       
+    background: #e6dff5;     
+    color: #4a148c;            /* Color del texto snpt*/
+    font-weight: bold;         /* Texto en negrita snpt*/
+    cursor: pointer;           /* Cursor de mano snpt */
+    box-shadow: 6px 6px 12px #c5b3e6,
+                -6px -6px 12px #ffffff; /* Sombras neumórficas snpt*/
+    transition: all 0.2s ease; /* Transición suave snpt*/
+}
+
+
+button:hover {
+    color: #651fff;            
+}
+
+
+button:active {
+    box-shadow: inset 4px 4px 8px #c5b3e6,
+                inset -4px -4px 8px #ffffff; 
+}
